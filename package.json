@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd ui/blogFrontEnd && ng serve\" \"cd api && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jobansin/Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jobansin/Blog/issues"
+  },
+  "homepage": "https://github.com/Jobansin/Blog#readme",
+  "dependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
