@@ -82,15 +82,15 @@ div{
 }
 
 .cat:before{
-    border-left: 0px solid transparent;
-    border-right: 15px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
     border-bottom: 15px solid rgb(219, 157, 157);
     left: 0;
 }
 
 .cat:after{
-    border-right: 0px solid transparent;
-    border-left: 15px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
     border-bottom: 15px solid rgb(219, 157, 157);
     right: 0;
 }
@@ -107,15 +107,26 @@ div{
 .cat .eyes.right{  right: 12px; }
 
 .cat .mouth{
-  position: absolute;
-  height: 4px; width: 60%;
+ position: absolute;
+  height: 1px; width: 60%;
   background: #333;
   border-radius: 0 0 30% 30%;
-  top: 28px;
+  top: 30px;
   margin: auto;
-  left: 0; right: 0;
+  left: 0; right: 0; 
 }
 
 .wrapper:hover .cat{
   bottom: 240px;
 }
+h1 
+{ font-family: "Bubblegum Sans"; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 16.5px; } 
+h3 
+{ font-family: "Bubblegum Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p 
+{ font-family: "Bubblegum Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote 
+{ font-family: "Bubblegum Sans"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre 
+{ font-family: "Bubblegum Sans"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
