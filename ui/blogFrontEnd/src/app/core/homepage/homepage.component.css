@@ -1,4 +1,4 @@
-.cock
+.title
 {
     color: #ac8d07;
     border-radius: 60px;
@@ -36,7 +36,7 @@ div{
   background: #BDA1B8;
   width: 90px;
   height: 42px; 
-  -webkit-animation: clouds 40s infinite;
+  -webkit-animation: clouds 20s infinite;
   margin-left: 0;
 }
 
@@ -58,6 +58,22 @@ div{
 .cloud:nth-child(2){ right: auto; left: 320px; opacity: 0.5}
 .cloud:nth-child(3){ bottom: auto; top: 120px; right: auto; left: 80px; opacity: 0.75;}
 .cloud:nth-child(4){ bottom: auto; top: 20px; right: auto; left: 320px; opacity: 0.65;}
+
+@-webkit-keyframes clouds /*Safari and Chrome*/ {
+  0% {margin-left:0;}
+  25% {margin-left:150px;}
+  50% {margin-left:0;}
+  75% {margin-left:150px;}
+  100% {margin-left: 0;}
+}
+
+@keyframes clouds /*Safari and Chrome*/ {
+  0% {margin-left:0;}
+  25% {margin-left:100px;}
+  50% {margin-left:0;}
+  75% {margin-left:100px;}
+  100% {margin-left: 0;}
+}
 
 .moon {
   height: 120px;
@@ -125,13 +141,19 @@ div{
 .cat .eyes.right{  right: 12px; }
 
 .cat .mouth{
- position: absolute;
-  height: 1px; width: 60%;
-  background: #333;
-  border-radius: 0 0 30% 30%;
-  top: 30px;
+  position: absolute;
+  height: 3px; width: 60%;
+  /* background: #333; */
+  /* border-radius: 0 0 100% 100%; */
+  /* top: 30px; */
+  /* left: 0; right: 0;  */
+  top: 10px;
   margin: auto;
-  left: 0; right: 0; 
+  text-align: center;
+  left: 20%; right: 20%;
+  color: #333;
+  font-family: Comic Sans MS;
+  font-size: 1.5em;
 }
 
 .wrapper:hover .cat{
