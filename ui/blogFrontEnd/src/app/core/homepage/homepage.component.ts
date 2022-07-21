@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { LoginComponent } from 'src/app/auth/login/login.component';
 
 @Component({
   selector: 'app-homepage',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
+
+  openDialog() {
+    this.dialog.open(LoginComponent,
+      {
+        width: '30%',
+      });
+  }
 
   ngOnInit(): void {
   }

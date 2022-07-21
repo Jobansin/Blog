@@ -11,22 +11,22 @@
     align-items: center;   
 }
 
-#box {
+/* #box {
     border-radius: 10px;
     border-color: black;
     border-style: solid;
     width: 30%;
     height: 60%;   
     background-color: white;
-}
+} */
 
-#outside {
+/* #outside {
     height: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center; 
-}
+} */
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;

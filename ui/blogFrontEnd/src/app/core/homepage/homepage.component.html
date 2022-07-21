@@ -2,7 +2,8 @@
   <div class="header-container">
     <h1 class = "title"> JJD </h1> 
     <nav class="nav-bar">
-      <button mat-raised-button class="login" [routerLink]="['/auth/login']">Log In</button>
+      <!-- <button mat-raised-button class="login" [routerLink]="['/auth/login']">Log In</button> -->
+      <button mat-raised-button class="login" (click)="openDialog()">Log In</button>
       <button mat-raised-button class="login">Sign Up</button>
     </nav> 
   </div>
